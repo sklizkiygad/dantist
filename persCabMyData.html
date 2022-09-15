@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/form-input.css">
+    <link rel="stylesheet" href="./css/pers-cab.css">
+    <link rel="stylesheet" href="./css/pers-cab-data.css">
+</head>
+<body>
+
+    <header>
+        <div class="head-breadcrumbs">
+            <div>
+                <a href="#">Главная</a>/<a href="#">Пациентам</a>/<a href="#">Записаться на приём</a>/<a href="#">Личный кабинет</a>
+            </div>
+            <h3>Регистрация</h3>
+        </div>
+        <div>
+            <a>Вернуться на главную <img src="./images/left-arrow.png"/></a>
+        </div>
+        
+    </header>
+
+
+    <section class="pers-cab-section">
+        
+        <div class="left-side">
+            <div class="section-navbar"> 
+                <a href="">Мои приёмы</a>
+                <a href="" class="active">Мои данные</a>
+                <a href="">Оставить отзыв о клинике</a>
+                <a href="">Записаться на приём</a>
+            </div>
+        
+
+      
+        <h1>Ваши личные данные</h1>
+
+        <div class="your-personal-data">
+           
+           
+            <div class="your-personal-data__image">
+                
+                <img src="./images/profileImgBig.png"/>
+                <button type="submit" class="login-button">Добавить фото</button>
+            </div>
+
+           <form class="your-personal-data__form">
+
+            <div>
+                <div class="input-block">
+                    <label class="form__label" for="authPhone">Фамилия</label>
+                    <input type="text" id="regLastName" placeholder="Введите фамилию"/>
+                </div>
+                <div class="input-block">
+                    <label class="form__label" for="authPhone">Имя</label>
+                    <input type="text" id="regFirstName" placeholder="Введите фамилию"/>
+                </div>
+                <div class="input-block">
+                    <label class="form__label" for="authPhone">Отчество</label>
+                    <input type="text" id="regFatherName" placeholder="Введите фамилию"/>
+                </div>
+    
+                <div class="input-block">
+                    <label class="form__label" for="authPhone">Дата рождения</label>
+                    <div class="input-block__date">
+                        <input type="number" min="1"  max="31"  id="regDayBirth" placeholder="_ _"/>
+                        <input type="number" min="1"  max="12" id="regMonthBirth" placeholder="_ _"/>
+                        <input type="number" min="1"  id="regYearBirth" placeholder="_ _ _ _"/>
+                    </div>
+                   
+                </div>
+                <button type="submit" class="login-button" id="save-change">Сохранить изменения</button>
+
+            </div>
+
+            <div>
+                <div class="input-block">
+                    <label class="form__label" for="authPhone">Номер телефона</label>
+                    <input type="text" id="authPhone" placeholder="Телефон"/>
+                </div>
+    
+                <div class="input-block">
+                    <label class="form__label" for="authPassword">Пароль</label>
+            
+                    <div class="form__pass">
+                        <input type="text" id="authPassword " class="pass-input" placeholder="Введите пароль"/>
+                        <img src="./images/eye.png"/>
+                    </div>
+                </div>
+
+            </div>
+
+
+           </form>
+
+            
+
+        </div>
+
+
+       
+
+    </div>
+
+    <div class="right-side">
+        <h1>Вы авторизованы</h1>
+        <img src="./images/profileimg.png"/>
+        <div>
+            <p>ФИО</p>
+            <a >Зубенко Михаил Петрович</a>
+        </div>
+        <div>
+            <p>Дата рождения</p>
+            <a>10 октября 1994</a>
+
+        </div>
+        <button type="submit" class="login-button exit">Выйти</button>
+
+    </div>
+
+  
+
+    </section>
+
+
+    <footer>
+        <div class="footer__links">
+        <ul>
+            <li><a href="">©ООО "Практик-Д" <br>
+                г. Тольятти, улица Офицерская, 35</a></li>
+                <li><a href=""><img src="./images/vk.png">PRAKTIK "Вконтакте"</a></li>
+                <li><a href=""><img src="./images/insta.png">PRAKTIK "Instagram"</a></li>
+        </ul>
+        <ul>
+            <li><a href="">Услуги стоматолога</a></li>
+            <li><a href="">Лечение зубов</a></li>
+            <li><a href="">Удаление зубов</a></li>
+            <li><a href="">Протезирование зубов</a></li>
+        </ul>
+        <ul>
+            <li><a href="">Ортодонтия</a></li>
+            <li  class="nowrap"><a href="">Отбеливание зубов</a><img src="./images/eye.png"/></li>
+            <li><a href="">Имплантация зубов</a></li>
+            <li><a href="">Детская стоматология</a></li>
+        </ul>
+        <ul>
+            <li><a href="">Политика конфиденциальности</a></li>
+            <li><a href="">Карта сайта</a></li>
+            <li><a href="">Разработка сайта</a></li>
+            <li ><a class="guild">Tehnopolyus</a></li>
+            
+        </ul>
+    </div>
+    
+    </footer>
+    
+</body>
+</html>

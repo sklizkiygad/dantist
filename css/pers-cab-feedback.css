@@ -1,0 +1,11 @@
+.pers-cab-feedback__buttons{
+    display: flex;
+    flex-direction: column;
+}
+.pers-cab-feedback__buttons button{
+    margin: 8px 0;
+    max-width: 270px;
+}
+.pers-cab-feedback{
+    padding-right: 200px;
+}

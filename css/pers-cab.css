@@ -1,0 +1,140 @@
+.section-navbar{
+    display: flex;
+}
+
+.section-navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-navbar a{
+    font-weight: 700;
+    font-size: 16px;
+    color: #2D2D2D;
+    text-decoration: none;
+}
+.section-navbar h1{
+    margin: 0;
+    font-weight: 700;
+    font-size: 32px;
+    color: #000000;
+}
+
+.section-selectors{
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 0 16px 0;
+}
+
+.section-selectors select,
+.section-selectors label
+{
+    border: none;
+    font-size: 14px;
+    color: #758099;
+    outline: none;
+    cursor: pointer;
+}
+
+.cards-holder{
+    padding-right: 150px;
+}
+
+.card-item{
+    background: #F1F1F1;
+    -webkit-box-shadow: 0px 4px 10px 1px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 4px 10px 1px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 4px 10px 1px rgba(34, 60, 80, 0.2);
+    padding: 20px 50px 20px 20px;
+    margin: 25px 0;
+}
+
+.card-item__head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-item__body{
+    display: flex;
+   gap: 30px;
+    
+}
+.card-item__body div{
+    display: flex;
+    flex-direction: column;
+}
+.card-item__body div a{
+    margin: 3px 0;
+}
+.card-item__button{
+    margin: 16px 0;
+    max-width: 270px;
+}
+.card-item__head{
+    font-weight: 700;
+font-size: 18px;
+color: #000000;
+}
+
+.overdue{
+    background: #E00944;
+}
+.card-item__button-overdue{
+    display: flex;
+    gap: 30px;
+}
+.card-item__button-overdue div{
+    margin: 16px 0;
+    max-width: 270px;
+    width: 100%;
+}
+
+.cancel{
+    background: #959595;
+}
+
+
+.pers-cab-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.right-side h1{
+    font-weight: 700;
+    font-size: 22px;
+    color: #000000;
+    margin: 0;
+}
+
+.right-side div{
+    margin: 10px 0;
+    }
+.right-side p{
+font-size: 14px;
+color: #758099;
+margin: 0;
+}
+
+.right-side a{
+    font-size: 14px;
+    color: #000000;
+}
+
+.edit{
+    font-size: 14px;
+    margin: 8px 0;
+}
+
+.exit{
+    font-size: 14px;
+    color:#000000;
+    background: none;
+    border: 1px solid #758099;
+    margin: 8px 0;
+}
+
+.active{
+    color: #F7941C !important;
+}
+

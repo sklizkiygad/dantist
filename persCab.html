@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/form-input.css">
+    <link rel="stylesheet" href="./css/pers-cab.css">
+</head>
+<body>
+
+    <header>
+        <div class="head-breadcrumbs">
+            <div>
+                <a href="#">Главная</a>/<a href="#">Пациентам</a>/<a href="#">Записаться на приём</a>/<a href="#">Личный кабинет</a>
+            </div>
+            <h3>Регистрация</h3>
+        </div>
+        <div>
+            <a>Вернуться на главную <img src="./images/left-arrow.png"/></a>
+        </div>
+        
+    </header>
+
+
+    <section class="pers-cab-section">
+        
+        <div class="left-side">
+            <div class="section-navbar"> 
+                <a href="" class="active">Мои приёмы</a>
+                <a href="">Мои данные</a>
+                <a href="">Оставить отзыв о клинике</a>
+                <a href="">Записаться на приём</a>
+            </div>
+        
+
+      
+
+        <div class="cards-holder">
+            <div class="section-selectors">
+
+            <div>
+                <label for="passedReception">фильтр:</label>
+                <select id="passedReception">
+                    <option>предстоящие приёмы</option>
+                    <option>отмененные приёмы</option>
+                    <option>пройденные приёмы</option>
+                    <option>просроченные приёмы</option>
+                </select>
+            </div>
+    
+    
+            <div>
+                <label for="fromToReception">сортировка:</label>
+                <select id="fromToReception">
+                    <option>от старых приёмов</option>
+                    <option>от новых приёмов</option>
+                </select>
+            </div>
+    
+    
+            </div>
+            
+        <div class="card-item">
+            <div class="card-item__head">
+                <p>Талон к стоматологу ортодонту</p>
+                <p>6 ноября 2021 12:00</p>
+            </div>
+            <div class="card-item__body">
+                <div>
+                    <a>Дата: 6 ноября 2021</a>
+                    <a>Услуга: Брекеты</a>
+                </div>
+                    <div>
+                        <a>Время: 12:00</a>
+                        <a>Врач: Дегтярева Юлия Викторовна</a>
+                    </div>
+                    
+                
+            </div>
+            <div class="card-item__button">
+                <button type="submit" class="login-button">Отменить запись</button>
+            </div>
+        </div>
+
+        <div class="card-item">
+            <div class="card-item__head">
+                <p>Талон к стоматологу ортодонту</p>
+                <p>6 ноября 2021 12:00</p>
+            </div>
+            <div class="card-item__body">
+                <div>
+                    <a>Дата: 6 ноября 2021</a>
+                    <a>Услуга: Брекеты</a>
+                </div>
+                    <div>
+                        <a>Время: 12:00</a>
+                        <a>Врач: Дегтярева Юлия Викторовна</a>
+                    </div>
+                    
+                
+            </div>
+            <div class="card-item__button-overdue">
+                <div>
+                    <button type="submit" class="login-button overdue">Запись просрочена</button>
+                </div>
+                
+                <div>
+                <a class="form-advice error">*Запись просрочена по причине опоздания пациента</a>
+                </div>
+            </div>
+        </div>
+
+
+        
+        <div class="card-item">
+            <div class="card-item__head">
+                <p>Талон к стоматологу ортодонту</p>
+                <p>6 ноября 2021 12:00</p>
+            </div>
+            <div class="card-item__body">
+                <div>
+                    <a>Дата: 6 ноября 2021</a>
+                    <a>Услуга: Брекеты</a>
+                </div>
+                    <div>
+                        <a>Время: 12:00</a>
+                        <a>Врач: Дегтярева Юлия Викторовна</a>
+                    </div>
+                    
+                
+            </div>
+            <div class="card-item__button">
+                <button type="submit" class="login-button cancel">Запись отменена</button>
+            </div>
+        </div>
+
+
+        <div class="card-item">
+            <div class="card-item__head">
+                <p>Талон к стоматологу ортодонту</p>
+                <p>6 ноября 2021 12:00</p>
+            </div>
+            <div class="card-item__body">
+                <div>
+                    <a>Дата: 6 ноября 2021</a>
+                    <a>Услуга: Брекеты</a>
+                </div>
+                    <div>
+                        <a>Время: 12:00</a>
+                        <a>Врач: Дегтярева Юлия Викторовна</a>
+                    </div>
+                    
+                
+            </div>
+            <div class="card-item__button">
+                <button type="submit" class="login-button cancel">Запись пройдена</button>
+            </div>
+        </div>
+
+        </div>
+
+
+       
+
+    </div>
+
+    <div class="right-side">
+        <h1>Вы авторизованы</h1>
+        <img src="./images/profileimg.png"/>
+        <div>
+            <p>ФИО</p>
+            <a >Зубенко Михаил Петрович</a>
+        </div>
+        <div>
+            <p>Дата рождения</p>
+            <a>10 октября 1994</a>
+
+        </div>
+        <button type="submit" class="login-button edit">Редактировать профиль</button>
+        <button type="submit" class="login-button exit">Выйти</button>
+
+    </div>
+
+  
+
+    </section>
+
+
+    <footer>
+        <div class="footer__links">
+        <ul>
+            <li><a href="">©ООО "Практик-Д" <br>
+                г. Тольятти, улица Офицерская, 35</a></li>
+                <li><a href=""><img src="./images/vk.png">PRAKTIK "Вконтакте"</a></li>
+                <li><a href=""><img src="./images/insta.png">PRAKTIK "Instagram"</a></li>
+        </ul>
+        <ul>
+            <li><a href="">Услуги стоматолога</a></li>
+            <li><a href="">Лечение зубов</a></li>
+            <li><a href="">Удаление зубов</a></li>
+            <li><a href="">Протезирование зубов</a></li>
+        </ul>
+        <ul>
+            <li><a href="">Ортодонтия</a></li>
+            <li  class="nowrap"><a href="">Отбеливание зубов</a><img src="./images/eye.png"/></li>
+            <li><a href="">Имплантация зубов</a></li>
+            <li><a href="">Детская стоматология</a></li>
+        </ul>
+        <ul>
+            <li><a href="">Политика конфиденциальности</a></li>
+            <li><a href="">Карта сайта</a></li>
+            <li><a href="">Разработка сайта</a></li>
+            <li ><a class="guild">Tehnopolyus</a></li>
+            
+        </ul>
+    </div>
+    
+    </footer>
+    
+</body>
+</html>

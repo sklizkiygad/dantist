@@ -1,0 +1,27 @@
+
+.your-personal-data{
+    display: flex;
+    gap: 40px;
+    padding-right: 50px;
+
+}
+
+.your-personal-data__form{
+    display: flex;
+    gap: 40px;
+}
+
+.your-personal-data__image{
+    max-width: 150px;
+}
+.your-personal-data__image img{
+    width: 100%;
+}
+
+.right-side h1{
+    white-space: nowrap;
+}
+
+#save-change{
+    margin: 8px 0;
+}
