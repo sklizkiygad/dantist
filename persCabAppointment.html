@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/form-input.css">
     <link rel="stylesheet" href="./css/pers-cab.css">
-    <link rel="stylesheet" href="./css/pers-cab-data.css">
-    <link rel="stylesheet" href="./css/pers-cab-feedback.css">
+    <link rel="stylesheet" href="./css/pers-cab-appointment.css">
+
 </head>
 <body>
 
@@ -34,31 +34,57 @@
         
         <div class="left-side">
             <div class="section-navbar"> 
-                <a href="">Мои приёмы</a>
-                <a href="" >Мои данные</a>
-                <a href="" class="active">Оставить отзыв о клинике</a>
-                <a href="">Записаться на приём</a>
+                <a>Мои приёмы</a>
+                <a>Мои данные</a>
+                <a>Оставить отзыв о клинике</a>
+                <a class="active">Записаться на приём</a>
             </div>
         
 
       
+
+        <div class="cards-holder">
+            <div class="section-selectors">
+                <a>5 специальностей</a>
+
+            <div>
+                <label for="passedReception">фильтр:</label>
+                <select id="passedReception">
+                    <option>по врачам</option>
+                    <option>по услугам</option>
+                </select>
+            </div>
+
+            <a>29 врачей</a>
+    
+            </div>
+
+            <ul class="cards-holder-doc-list">
+                <li><a>Стоматолог терапевт</a></li>
+                <li><a>Стоматолог ортопед</a></li>
+                <li><a>Ортодонт</a></li>
+                <li><a>Стоматолог хирург</a></li>
+                <li><a>Детский стоматолог</a>
+                    <div class="cards-holder-doc-list__docs">
+                        <div class="cards-holder-doc-list__doc-info">
+                            <img src="./images/doc.png">
+                            <div class="cards-holder-doc-list__doc-info__text">
+                                <a>Ефимова Дарья Вадимовна</a>
+                                <a>Врач второй категории</a>
+                                <a>Детский стоматолог</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                </li>
+            </ul>
+            
         
 
-            <div class="pers-cab-feedback">
-                <h1>Оставьте отзыв о нашей клинике на сайте
-                    или на сторонних ресурсах</h1>
-                    <div class="pers-cab-feedback__buttons">
-
-                <button type="submit" class="login-button" >Перейти в Отзовик</button>
-                <button type="submit" class="login-button" >Перейти в Карты</button>
-                <button type="submit" class="login-button exit">Оставить отзыв на сайте</button>
-            </div>
 
 
-            </div>
-
-            </div>
-
+        </div>
 
 
        
@@ -77,6 +103,7 @@
             <a>10 октября 1994</a>
 
         </div>
+        <button type="submit" class="login-button edit">Редактировать профиль</button>
         <button type="submit" class="login-button exit">Выйти</button>
 
     </div>
